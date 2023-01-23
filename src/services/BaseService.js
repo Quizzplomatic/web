@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const http = axios.create({
-    baseURL: `${process.env.REACT_APP_API_HOST}` || 'http://localhost:3001/api',
+    baseURL: 'https://quizplomatic.onrender.com/api',
     withCredentials: false
 })
 
