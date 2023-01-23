@@ -43,6 +43,18 @@
     padding: 0 25px;
 }
 
+.question-card::after {
+    border-radius: 10px;
+    content: "";
+    background-color: #f0e3d3;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+}
+
 .question-card-front {
     background-color: white;
 }
@@ -62,12 +74,12 @@
 }
 
 .previous-question {
-    animation: disappear 2s linear;
+    animation: disappear 0.1s linear;
     animation-iteration-count: 1;
 }
 
 .new-question {
-    animation: appear 2s linear;
+    animation: appear 0.1s linear;
     animation-iteration-count: 1;
 }
 

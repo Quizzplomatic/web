@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Home.css'
-import friso from '../../assests/pexels-alex-azabache-3757144.jpg'
+import friso from '../../assests/books.jpeg'
 import learn from '../../assests/undraw_education_f8ru.svg'
 import book from '../../assests/undraw_online_learning_re_qw08.svg'
 

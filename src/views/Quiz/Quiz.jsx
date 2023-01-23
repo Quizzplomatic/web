@@ -91,7 +91,7 @@ const Quiz = () => {
                     <div  className="question-card">
                     {/* {previousQuestion &&
                         
-                            <div className={`question-card-inner previous-question ${seeSolution ? "flip" : ""}`}>
+                            <div key={Math.random()} className={`question-card-inner previous-question`}>
                                 <div className="question-card-front">
                                     <h3 className="question-title-quiz">{previousQuestion.title}</h3>
                                 </div>

@@ -5,8 +5,9 @@
 }
 
 .textarea {
-    min-height: fit-content;
+    height: fit-content;
     resize: vertical;
+    font-size: 19px;
 }
 
 .submit-button {

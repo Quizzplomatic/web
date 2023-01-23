@@ -1,3 +1,4 @@
+
 .Home {
     align-items: center;
     text-align: center;
@@ -19,7 +20,7 @@
     padding: 40px 90px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .home-h1 {
@@ -38,12 +39,13 @@
     margin: 30px 0;
     font-size: 20px;
     color: gray;
+    max-width: 1000px;
 }
 
 .home-p {
-    text-align: end;
-    position: absolute;
     transform: rotate(10deg);
+    position: absolute;
+    left: calc(100vw - 200px);
 }
 
 .friso {

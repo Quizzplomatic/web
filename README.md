@@ -1,10 +1,12 @@
-### Quizplomatic
+### Quizplomatic 🏛
 
 My bff is preparing to join the diplomatic service so I built her a quiz to help her review for her test.
 
-It is not deployed anywhere yet, so here you can see some screenshots. :)
+Click <a href="https://quizplomatic.herokuapp.com/" target="_blank">here</a> to test it!
 
-<img width="1393" alt="Screenshot 2022-04-20 at 02 40 56" src="https://user-images.githubusercontent.com/71184110/164124037-28dccdac-14ff-409d-8632-3dde72bab079.png">
+The questions are not yet online so, here you can see some screenshots. 📚
+
+<img width="1511" alt="Screenshot 2022-04-25 at 13 46 33" src="https://user-images.githubusercontent.com/71184110/165082963-2dc78102-5a31-4ff1-98cc-8e8405cdad30.png">
 
 <img width="1396" alt="Screenshot 2022-04-20 at 02 42 28" src="https://user-images.githubusercontent.com/71184110/164124143-8b386dfa-0714-4439-82a6-2da6cf498363.png">
 
