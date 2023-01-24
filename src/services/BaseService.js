@@ -3,8 +3,8 @@ import { getAccessToken } from '../store/accessTokenStore';
 
 const create = ({ useAccessToken } = { useAccessToken: true }) => {
     const http = axios.create({
-        // baseURL: 'https://quizplomatic.onrender.com/api',
-        baseURL: 'http://localhost:3001/api',   
+        baseURL: 'https://quizplomatic.onrender.com/api',
+        // baseURL: 'http://localhost:3001/api',   
         withCredentials: false
     });
     
