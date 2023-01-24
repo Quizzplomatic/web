@@ -113,10 +113,6 @@ const Quiz = () => {
                         </div>
                     </div>
                 <p className="category">Category: {question.category}</p>
-                <div className="your-answer">
-                    <label htmlFor="answer">Your answer:</label>
-                    <input type="text" className="answer-input" name="answer" id="" />
-                </div>
                 </div>
                 
 

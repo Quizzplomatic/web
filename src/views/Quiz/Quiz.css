@@ -93,17 +93,6 @@
     100% {left: 0%;}
 } */
 
-.your-answer {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin: 35px 0;
-}
-
-.answer-input {
-    width: 80%;
-}
-
 .solution-button {
     align-items: center;
     border-radius: 5px;
