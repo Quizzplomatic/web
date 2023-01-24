@@ -41,7 +41,7 @@ const Register = () => {
 
     return (
         <div>
-            <h1>Sign Up</h1>
+            <h1>Register</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <InputGroup
                     placeholder="Name"
