@@ -1,6 +1,8 @@
-import http from "./BaseService";
+import createHttp from "./BaseService";
 
-export const getQuestions = () => http.get('/quiz')
-export const createQuestion = (data) => http.post('/new', data)
-export const updateQuestion = (data) => http.patch('/update', data)
-export const deleteQuestion = (id) => http.delete(`/delete/${id}`)
+const http = createHttp({ useAccessToken: false });
+
+export const getQuestions = () => http.get('/quiz');
+export const createQuestion = (data) => http.post('/new', data);
+export const updateQuestion = (data) => http.patch('/update', data);
+export const deleteQuestion = (id) => http.delete(`/delete/${id}`);

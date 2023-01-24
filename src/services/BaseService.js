@@ -1,10 +1,26 @@
-import axios from 'axios'
+import axios from 'axios';
+import { getAccessToken } from '../store/accessTokenStore';
 
-const http = axios.create({
-    baseURL: 'https://quizplomatic.onrender.com/api',
-    withCredentials: false
-})
+const create = ({ useAccessToken } = { useAccessToken: true }) => {
+    const http = axios.create({
+        // baseURL: 'https://quizplomatic.onrender.com/api',
+        baseURL: 'http://localhost:3001/api',   
+        withCredentials: false
+    });
+    
+    http.interceptors.request.use(
+        (request) => {
+            if (useAccessToken && getAccessToken()) {
+                request.headers.common.Authorization = `Bearer ${getAccessToken()}`
+            }
+            
+            return request;
+        }
+    )
 
-http.interceptors.response.use((response) => response.data);
+    http.interceptors.response.use((response) => response.data);
 
-export default http
+    return http;
+}
+
+export default create;

@@ -1,0 +1,9 @@
+.new-button {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.submitting {
+    opacity: 1;
+    color: white;
+}

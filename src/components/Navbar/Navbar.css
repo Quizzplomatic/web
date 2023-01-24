@@ -55,7 +55,7 @@ li {
 }
 
 @media (max-width: 500px) {
-    .logo {
+    .quizplomatic {
         display: none;
     }
 }

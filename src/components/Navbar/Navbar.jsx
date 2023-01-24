@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="my-navbar">
         <div className="my-navbar-div">
           <div className="align-items-center">
-            <img src={favicon} alt="" className='logo' />
+            <NavLink to="/"><img src={favicon} alt="" className='logo' /></NavLink>
             <NavLink className="quizplomatic" to="/">Quizplomatic</NavLink>
           </div>
 
@@ -22,8 +22,13 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                     <NavLink className="link" to="/new">New</NavLink>
-                </li>
-                  
+                </li>  
+                <li className="nav-item">
+                    <NavLink className="link" to="/login">LogIn</NavLink>
+                </li>  
+                <li className="nav-item">
+                    <NavLink className="link" to="/register">Register</NavLink>
+                </li>  
             </ul>
           </div>
         </div>
