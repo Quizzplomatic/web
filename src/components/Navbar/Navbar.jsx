@@ -10,6 +10,7 @@ const Navbar = () => {
 
     const doLogout = () => {
       logout();
+      createToast("See you next time!", "success");
     }
 
     return (

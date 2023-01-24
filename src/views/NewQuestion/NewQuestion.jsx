@@ -31,10 +31,14 @@ const NewQuestion = () => {
             } else {
                 createQuestion({...data})
                     .then(question => {
-                        navigate('/all')
+                        navigate('/all');
+                        createToast("New question added.", "success");
                         setErrors(false)
                     })
-                    .catch(error => setErrors(error?.response?.data?.errors))
+                    .catch(error => {
+                        setErrors(error?.response?.data?.errors);
+                        createToast("An error ocurred.", "fail");
+                    })
                 }
     }
 

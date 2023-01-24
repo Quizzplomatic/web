@@ -1,0 +1,30 @@
+.Toast {
+    width: fit-content;
+    position: fixed;
+    top: 80vh;
+    left: calc(100vw - 230px);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation-name: toast;
+    animation-duration: 4s;
+    border: 0.5px solid;
+}
+
+.success {
+    background-color: rgb(131, 186, 131)
+}
+
+.fail {
+    background-color: rgb(200, 96, 96);
+}
+
+@keyframes toast {
+    0% {left: 100vw;}
+    25% {left: calc(100vw - 240px);}
+    75% {left: calc(100vw - 240px);}
+    100% {left: 100vw;}
+}
+

@@ -36,6 +36,7 @@ const Login = () => {
         loginRequest(data)
             .then(res => {
                 login(res.access_token, () => navigate(from, { replace: true}));
+                createToast("Welcome back!", "success");
             })
             .catch(error => {
                 setError(error?.response?.data?.message)   

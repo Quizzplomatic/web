@@ -38,7 +38,8 @@ export const AuthContextProvider = ({ children }) => {
     useEffect(() => {
         if (getAccessToken()) {
             if (!verifyJWT(getAccessToken())) {
-                logout()
+                logout();
+                createToast("Access denied, logging you out.", "fail");
             } else {
                 getUser();
             }
