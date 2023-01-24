@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useAuthContext } from '../../contexts/AuthContext/AuthContext'
 import { createQuestion } from '../../services/QuizService'
 import './NewQuestion.css'
 
@@ -10,6 +11,8 @@ const initialForm = {
 }
 
 const NewQuestion = () => {
+    const { createToast } = useAuthContext();
+
     const [data, setData] = useState(initialForm)
     const [errors, setErrors] = useState(false)
     const navigate = useNavigate()

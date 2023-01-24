@@ -6,7 +6,7 @@ import { useAuthContext } from '../../contexts/AuthContext/AuthContext';
 import { logout } from '../../store/accessTokenStore';
 
 const Navbar = () => {
-    const { user } = useAuthContext();
+    const { user, createToast } = useAuthContext();
 
     const doLogout = () => {
       logout();
