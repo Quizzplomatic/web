@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { getCurrentUser } from "../../services/AuthService";
+import { getCurrentUser } from "../../services/UserService";
 import { getAccessToken, logout, setAccessToken } from "../../store/accessTokenStore";
 import { verifyJWT } from "../../utils/jwtHelper";
 
