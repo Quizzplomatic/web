@@ -2,9 +2,9 @@
 
 My bff is preparing to join the diplomatic service so I built her a quiz to help her review for her test.
 
-Click <a href="https://quizplomatic.herokuapp.com/" target="_blank">here</a> to test it!
+Click <a href="https://quizplomatic.netlify.app" target="_blank">here</a> to test it!
 
-The questions are not yet online so, here you can see some screenshots. 📚
+The New and All views and routes are restricted so only she can see, create and edit questions. So here you have some screenshots. 📚
 
 <img width="1511" alt="Screenshot 2022-04-25 at 13 46 33" src="https://user-images.githubusercontent.com/71184110/165082963-2dc78102-5a31-4ff1-98cc-8e8405cdad30.png">
 
